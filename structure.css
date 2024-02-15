@@ -1,0 +1,63 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+/* structure.css */
+/* structure.css */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right; /* Aligns the navigation links to the right */
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px; /* Add spacing between the navigation links */
+}
+
+nav ul li:first-child {
+    margin-left: 0; /* Remove left margin from the first navigation link */
+}
+
+nav ul li a {
+    color: #fff; /* Set the color of the navigation links to white */
+}
+
+
+main {
+    padding: 20px;
+}
+/* Footer styles */
+footer {
+    margin-top: 10px;
+    /* Reduced margin */
+    padding: 10px;
+    background: linear-gradient(to right, #24b050, #704a0c);
+    color: #fff;
+}
+
+/* styles.css */
+img {
+    max-width: 20%;
+    height: auto;
+    border-radius: 50%; /* Makes the image circular */
+    border: 3px solid #fff; /* Optional: Adds a white border to the image */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Optional: Adds a shadow effect */
+}
+/* structure.css */
+.photos-container {
+    text-align: center;
+}
+
+.photos-container img {
+    display: block;
+    margin: 0 auto;
+}
