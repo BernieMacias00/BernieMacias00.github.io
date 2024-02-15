@@ -1,21 +1,29 @@
+/*
+Bernabe Macias
+Assign 1
+2/14/24
 
-body { /**/
+Purpose: 
+this is a program basically full of functions that will be called by another program to set the
+values for say image size, text font, etc. 
+*/
+body { /* the body gives us our font margin and padding*/
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
-header { /**/
+header { /* sets header to black and sets spacing*/
     background-color: #333;
     color: #fff;
     padding: 20px;
 }
-.header2 { /**/
+.header2 { /* sets header to red and sets spacing*/
     background-color: #ff0000; 
     color: #fff;
     padding: 20px;
 }
 
-.header3 { /**/
+.header3 { /* sets header to blue and sets spacing*/
     background-color: #0000ff;
     color: #fff;
     padding: 20px;
@@ -25,20 +33,20 @@ nav ul { /**/
     list-style-type: none;
     margin: 0;
     padding: 0;
-    text-align: right; /* Aligns the navigation links to the right */
+    text-align: right; /* puts our links on top right */
 }
 
 nav ul li { /**/
     display: inline;
-    margin-left: 20px; /* Add spacing between the navigation links */
+    margin-left: 20px; /* adds spacing between links */
 }
 
 nav ul li:first-child { /**/
-    margin-left: 0; /* Remove left margin from the first navigation link */
+    margin-left: 0; /* remvoes left margin for links*/
 }
 
 nav ul li a {
-    color: #fff; /* Set the color of the navigation links to white */
+    color: #fff; /* sets color of link tabs to white */
 }
 
 
@@ -55,19 +63,19 @@ footer { /**/
 }
 
 
-img { /**/
+img { /* function for imagine that sets it to an oval and size*/
     max-width: 20%;
     height: auto;
-    border-radius: 50%; /* Makes the image circular */
-    border: 3px solid #fff; /* Optional: Adds a white border to the image */
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Optional: Adds a shadow effect */
+    border-radius: 50%; /*  */
+    border: 3px solid #fff; /* adds white to border of image */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* can add shadow effect */
 }
-/* structure.css */
-.photos-container { /**/
+
+.photos-container { /* is called by main func to center the photos */
     text-align: center;
 }
 
-.photos-container img { /**/
+.photos-container img { /* when called it automatically fits the photo in between margins */
     display: block;
     margin: 0 auto;
 }
