@@ -1,29 +1,39 @@
 
-body {
+body { /**/
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
-header {
+header { /**/
     background-color: #333;
     color: #fff;
     padding: 20px;
 }
-/* structure.css */
-/* structure.css */
-nav ul {
+.header2 { /**/
+    background-color: #ff0000; 
+    color: #fff;
+    padding: 20px;
+}
+
+.header3 { /**/
+    background-color: #0000ff;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul { /**/
     list-style-type: none;
     margin: 0;
     padding: 0;
     text-align: right; /* Aligns the navigation links to the right */
 }
 
-nav ul li {
+nav ul li { /**/
     display: inline;
     margin-left: 20px; /* Add spacing between the navigation links */
 }
 
-nav ul li:first-child {
+nav ul li:first-child { /**/
     margin-left: 0; /* Remove left margin from the first navigation link */
 }
 
@@ -32,11 +42,11 @@ nav ul li a {
 }
 
 
-main {
+main { /**/
     padding: 20px;
 }
 /* Footer styles */
-footer {
+footer { /**/
     margin-top: 10px;
     /* Reduced margin */
     padding: 10px;
@@ -44,8 +54,8 @@ footer {
     color: #fff;
 }
 
-/* styles.css */
-img {
+
+img { /**/
     max-width: 20%;
     height: auto;
     border-radius: 50%; /* Makes the image circular */
@@ -53,11 +63,11 @@ img {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Optional: Adds a shadow effect */
 }
 /* structure.css */
-.photos-container {
+.photos-container { /**/
     text-align: center;
 }
 
-.photos-container img {
+.photos-container img { /**/
     display: block;
     margin: 0 auto;
 }
